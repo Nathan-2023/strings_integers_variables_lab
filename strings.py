@@ -3,9 +3,9 @@
 # 3. Make sure both tests pass in 'test_strings.py'
 # 4. When both tests are passing, move to 'integers.py' file
 
-def this_is_a_string():
+def this_is_a_string(my_string):
     return type(my_string)
 
 
-def string_variable_in_a_string():
+def string_variable_in_a_string(my_string):
     return f"The value I assigned to my_string is: {my_string}"
